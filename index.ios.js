@@ -644,7 +644,7 @@ export class CameraPlus extends CameraPlusBase {
         this.enableAudio = true;
         // library picker handling
         this._galleryMax = 3;
-        this._pictureQuality = 'High';
+        this._pictureQuality = 'Photo';
         CLog('CameraPlus constructor');
         this._onLayoutChangeListener = this._onLayoutChangeFn.bind(this);
         this._swifty = MySwifty.initWithOwner(new WeakRef(this), CameraPlus.defaultCamera);
